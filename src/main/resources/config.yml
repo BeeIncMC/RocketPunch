@@ -1,0 +1,20 @@
+messages:
+  cooldown: "&cYou need to wait %seconds% more seconds before you can punch someone"
+  success: "&cWhoosh!"
+  no-punch: "&cYou cannot punch that player."
+# The distance for the punch to actually effect
+punchdistance: 4
+cooldowns:
+  # Cooldown for a limited punch (in seconds)
+  limited: 15
+  # Cooldown for an unlimited punch (in seconds)
+  unlimited: 60
+permissions:
+  # Use this permission node to allow a player to punch players with the "punchable" permission node
+  limited: "rocketpunch.use.basic"
+  # Use this permission node to allow the player to punch anyone (excluding "no-punch" perm node)
+  unlimited: "rocketpunch.use.unlimited"
+  # Use this permission node to prevent punching of a player (used for owner/admin)
+  no-punch: "rocketpunch.nopunch"
+  # Use this permission node to allow helpers & builders to be punched
+  punchable: "rocketpunch.punchable"

@@ -1,0 +1,19 @@
+name: RocketPunch
+version: 0.0.1
+main: us.pixelgames.rocketpunch.RocketPunch
+authors: [ AlexW ]
+description: Rocket Punch
+website: pixelgames.us
+permissions:
+  rocketpunch.use.limited:
+    default: not op
+    description: Use this permission node to allow a player to punch players with the "punchable" permission node
+  rocketpunch.use.unlimited:
+    default: op
+    description: Use this permission node to allow the player to punch anyone (excluding "no-punch" perm node)
+  rocketpunch.no-punch:
+    default: op
+    description: Use this permission node to prevent punching of a player (used for owner/admin)
+  rocketpunch.punchable:
+    default: not op
+    description: Use this permission node to allow helpers & builders to be punched
